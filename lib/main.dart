@@ -28,9 +28,10 @@ class MusicPlay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.amber[900],
+          backgroundColor: Colors.cyan,
           title: Text('Music App'),
           centerTitle: true,
         ),
